@@ -25,8 +25,8 @@
 
 <!--resize-->
 <div align="center">
-<img width="1038" height="418" alt="Image" src="https://github.com/user-attachments/assets/315c9f7d-03d6-45f9-a6a5-0ef383f72571" />
-<img width="786" height="416" alt="Image" src="https://github.com/user-attachments/assets/5ae6988d-3454-4bd7-b11d-e1a40fa69e52" />
+<img width="519" height="209" alt="Image" src="https://github.com/user-attachments/assets/315c9f7d-03d6-45f9-a6a5-0ef383f72571" />
+<img width="393" height="208" alt="Image" src="https://github.com/user-attachments/assets/5ae6988d-3454-4bd7-b11d-e1a40fa69e52" />
 </div>
 <i>columns can be resized carefully</i>
 
