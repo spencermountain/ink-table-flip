@@ -18,18 +18,28 @@
 <img height="50px" src="https://user-images.githubusercontent.com/399657/68221862-17ceb980-ffb8-11e9-87d4-7b30b6488f16.png"/>
 
 <img width="1800" height="600" alt="Image" src="https://github.com/user-attachments/assets/8930e18e-46ed-46b9-afda-7a62ffbd49e3" />
-columns can be sorted, and they are sorted properly by type
+<i>columns can be sorted properly, by type</i>
+
+<!-- spacer -->
+<img height="50px" src="https://user-images.githubusercontent.com/399657/68221862-17ceb980-ffb8-11e9-87d4-7b30b6488f16.png"/>
+
+<!--resize-->
+<div align="center">
+<img width="1038" height="418" alt="Image" src="https://github.com/user-attachments/assets/315c9f7d-03d6-45f9-a6a5-0ef383f72571" />
+<img width="786" height="416" alt="Image" src="https://github.com/user-attachments/assets/5ae6988d-3454-4bd7-b11d-e1a40fa69e52" />
+</div>
+<i>columns can be resized carefully</i>
 
 ```js
 import Table from 'ink-table-flip'
 
 const cols = [
-  { label: 'Name', id: 'name', sortable: true, color: 'blue' },
-  { label: 'Start Date', id: 'start', format: 'month-year', sortable: true },
-  { label: '# Terms', id: 'terms', type: 'number', maxWidth: 10 },
-  { label: 'Age', id: 'age', maxWidth: 10 },
-  { label: 'Gender', id: 'gender', maxWidth: 12 },
-  { label: 'Birthplace', id: 'birthplace' }
+  { id: 'name', label: 'Name', color: 'blue', sortable: true },
+  { id: 'start', label: 'Start Date', format: 'month-year', sortable: true },
+  { id: 'terms', label: '# Terms', type: 'number', maxWidth: 10 },
+  { id: 'age', label: 'Age', maxWidth: 10 },
+  { id: 'gender', label: 'Gender', maxWidth: 12 },
+  { id: 'birthplace', label: 'Birthplace' }
 ]
 
 const rows = [

@@ -9,12 +9,12 @@ import { simpsons } from './tests/data/_cols.js'
 
 
 const cols=[
-  { label: 'Name', id: 'name', sortable: true, color:'blue'  },
-  { label: 'Start Date', id: 'start', format:'month-year', sortable: true  },
-  { label: '# Terms', id: 'terms', type:'number', sortable: false  },
-  { label: 'Age', id: 'age', sortable: false  },
-  { label: 'Gender', id: 'gender', sortable: false  },
-  { label: 'Birthplace', id: 'birthplace', sortable: false  },
+  { label: 'Name', id: 'name', sortable: true, color: 'blue', minWidth: 12 },
+  { label: 'Start Date', id: 'start', format: 'month-year', sortable: true, minWidth: 10 },
+  { label: 'Terms', id: 'terms', type: 'number' },
+  { label: 'Age', id: 'age' },
+  { label: 'Gender', id: 'gender' },
+  { label: 'Birthplace', id: 'birthplace', minWidth: 6 }
 ]
 
 const rows=[
