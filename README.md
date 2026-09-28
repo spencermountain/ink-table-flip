@@ -41,10 +41,10 @@
 import Table from 'ink-table-flip'
 
 const cols = [
-  { id: 'name',  label: 'Name', color: 'blue', sortable: true },
+  { id: 'name', label: 'Name', color: 'blue', sortable: true },
   { id: 'start', label: 'Start Date', format: 'month-year', sortable: true },
   { id: 'terms', label: 'Terms', type: 'number', maxWidth: 10 },
-  { id: 'age',   label: 'Age', maxWidth: 10 },
+  { id: 'age', label: 'Age', maxWidth: 10 },
   // ...
 ]
 
@@ -55,8 +55,8 @@ const rows = [
   { name: 'David Miller', start: '2003-12-01', terms: 2, gender: 'm', age: 45, birthplace: 'Toronto' },
   // ...
 ]
-// throw it into you ink app
-return (
+// throw it into your ink app
+return ( 
   <Box>
     <Table cols={cols} rows={rows} />
   </Box>
