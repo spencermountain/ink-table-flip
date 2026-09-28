@@ -18,17 +18,22 @@
 <img height="50px" src="https://user-images.githubusercontent.com/399657/68221862-17ceb980-ffb8-11e9-87d4-7b30b6488f16.png"/>
 
 <img width="1800" height="600" alt="Image" src="https://github.com/user-attachments/assets/8930e18e-46ed-46b9-afda-7a62ffbd49e3" />
-<i>columns can be sorted properly, by type</i>
+<div align="right">
+  <i>columns can be sorted properly, by type</i>
+</div>
+<!-- spacer -->
+<img height="100px" src="https://user-images.githubusercontent.com/399657/68221862-17ceb980-ffb8-11e9-87d4-7b30b6488f16.png"/>
+
+<!--resize-->
+<div align="right">
+  <img width="519" height="209" alt="Image" src="https://github.com/user-attachments/assets/315c9f7d-03d6-45f9-a6a5-0ef383f72571" />
+  <img width="393" height="208" alt="Image" src="https://github.com/user-attachments/assets/5ae6988d-3454-4bd7-b11d-e1a40fa69e52" />
+  <i>columns can be resized carefully</i>
+</div>
+
 
 <!-- spacer -->
 <img height="50px" src="https://user-images.githubusercontent.com/399657/68221862-17ceb980-ffb8-11e9-87d4-7b30b6488f16.png"/>
-
-<!--resize-->
-<div align="center">
-<img width="519" height="209" alt="Image" src="https://github.com/user-attachments/assets/315c9f7d-03d6-45f9-a6a5-0ef383f72571" />
-<img width="393" height="208" alt="Image" src="https://github.com/user-attachments/assets/5ae6988d-3454-4bd7-b11d-e1a40fa69e52" />
-</div>
-<i>columns can be resized carefully</i>
 
 ```js
 import Table from 'ink-table-flip'
@@ -38,8 +43,7 @@ const cols = [
   { id: 'start', label: 'Start Date', format: 'month-year', sortable: true },
   { id: 'terms', label: '# Terms', type: 'number', maxWidth: 10 },
   { id: 'age', label: 'Age', maxWidth: 10 },
-  { id: 'gender', label: 'Gender', maxWidth: 12 },
-  { id: 'birthplace', label: 'Birthplace' }
+  // ...
 ]
 
 const rows = [
@@ -47,13 +51,17 @@ const rows = [
   {"name": "John Tory", "start": "2014-12-01", "terms": 3, "gender": "m", "age": 60, "birthplace": "Toronto"},
   {"name": "Rob Ford", "start": "2010-12-01", "terms": 1, "gender": "m", "age": 41, "birthplace": "Toronto"},
   {"name": "David Miller", "start": "2003-12-01", "terms": 2, "gender": "m", "age": 45, "birthplace": "Toronto"},
-  {"name": "Mel Lastman", "start": "1998-01-01", "terms": 2, "gender": "m", "age": 65, "birthplace": "Toronto"},
-  {"name": "Barbara Hall", "start": "1994-12-01", "terms": 1, "gender": "f", "age": 45, "birthplace": null},
+  // ...
 ]
+// throw it into you ink app
 return (
-  <Table cols={cols} rows={rows} />
+  <Box>
+    <Table cols={cols} rows={rows} />
+  </Box>
 )
 ```
+
+---
 
 ### Usage
 The `Table` component accepts two properties: 
@@ -96,7 +104,7 @@ const cols = [
 
 
 
-## Column properties
+### Column properties
 
 * `label`: The column header label.
 * `id`: The unique identifier for the column.
@@ -121,7 +129,7 @@ const cols = [
 * `suffix` - A suffix to add to the values.
 
 
-## TypeScript
+### TypeScript
 
 Type declarations are included for the ESM component.
 `Column<Row>` checks column IDs against your row properties; array rows use
