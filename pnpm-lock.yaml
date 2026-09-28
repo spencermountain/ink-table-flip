@@ -16,8 +16,8 @@ importers:
         specifier: ^16.0.3
         version: 16.0.3(rollup@4.63.5)
       '@types/node':
-        specifier: ^22.20.4
-        version: 22.20.4
+        specifier: ^26.6.3
+        version: 26.6.3
       '@types/react':
         specifier: ^19.3.0
         version: 19.3.0
@@ -33,9 +33,12 @@ importers:
       rollup:
         specifier: ^4.63.5
         version: 4.63.5
+      rollup-plugin-filesize-check:
+        specifier: ^2.0.1
+        version: 2.0.1(rollup@4.63.5)
       tap-dancer:
-        specifier: 0.4.2
-        version: 0.4.2
+        specifier: 0.4.3
+        version: 0.4.3
       tape:
         specifier: ^5.10.2
         version: 5.10.2
@@ -457,8 +460,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@22.20.4':
-    resolution: {integrity: sha512-zJRE40jpHtKqE/C4fgHrAKQLJuSpzEnP9ff9Y7YtoR3Wd2pwqzlekDeEuUQXjRd+QCYnVnNwuJYmhdk9XV8gvA==}
+  '@types/node@26.6.3':
+    resolution: {integrity: sha512-dsqMQQoeTLqu9wynDD00q573mNzso3IdQOAfHRJqLCcmCFPoGo9A1bDpUcv/9tnKpErQWv9uKeGfl37EIS02Yg==}
 
   '@types/react@19.3.0':
     resolution: {integrity: sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==}
@@ -1299,6 +1302,12 @@ packages:
     resolution: {integrity: sha512-I9fPXU9geO9bHOt9pHHOhOkYerIMsmVaWB0rA2AI9ERh/+x/i7MV5HKBNrg+ljO5eoPVgCcnFuRjJ9uH6I/3eg==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
+  rollup-plugin-filesize-check@2.0.1:
+    resolution: {integrity: sha512-B8iv8MMXwZs9/5axHCmowUEhMWrUrLoJ+FjC7j4m2bKI7yh3OiZy7mos/FTNT1T6MtHulRaufNf9+zAXMYwkLQ==}
+    engines: {node: '>=18.0.0'}
+    peerDependencies:
+      rollup: '>=2.78.0'
+
   rollup@4.63.5:
     resolution: {integrity: sha512-KRWwmNLlPw5M7HcdYfm15oBv9n9LPtjzpzCIxS/phwqvPyxHSoKX6Y2YU3pxSPfy0CLquVgsx/j/hBi6OvH1Nw==}
     engines: {node: '>=18.0.0', npm: '>=8.0.0'}
@@ -1405,8 +1414,8 @@ packages:
     resolution: {integrity: sha512-yEFYrVhod+hdNyx7g5Bnkkb0G6si8HJurOoOEgC8B/O0uXLHlaey/65KRv6cuWBNhBgHKAROVpc7QyYqE5gFng==}
     engines: {node: '>=20'}
 
-  tap-dancer@0.4.2:
-    resolution: {integrity: sha512-fc+aXvCColauoRlS1QMJtQqCHWFw+0Ck2KVCbvycDs6DdWHa8V2V0yhsfBp4TyrJsfUksDAGfw1/Ukf+rEyjQA==}
+  tap-dancer@0.4.3:
+    resolution: {integrity: sha512-mfLUXoXW9/YmidQc1WE19oebGk3rTs+rtL74FnOJmwbMDuSMivhqNz3fHgzVIEwYEeDFLmCsXon17gHiwjbRuQ==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1465,8 +1474,8 @@ packages:
     resolution: {integrity: sha512-nWJ91DjeOkej/TA8pXQ3myruKpKEYgqvpw9lz4OPHj/NWFNluYrjbz9j01CJ8yKQd2g4jFoOkINCTW2I5LEEyw==}
     engines: {node: '>= 0.4'}
 
-  undici-types@6.21.0:
-    resolution: {integrity: sha512-iwDZqg0QAGrg9Rav5H4n0M64c3mkR59cJ6wQp+7C4nI0gsmExaedaYLNO44eT4AtBBwjbTiGPMlt2Md0T9H9JQ==}
+  undici-types@8.9.0:
+    resolution: {integrity: sha512-KTDyRTYX8sWmKXAikPHHSyc63CRPETMctyjKFupcC6OBLXT3xsN0e9aF7m+mIXutFWpUXuedtowG7iLOzp0kQg==}
 
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
@@ -1805,9 +1814,9 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@22.20.4':
+  '@types/node@26.6.3':
     dependencies:
-      undici-types: 6.21.0
+      undici-types: 8.9.0
 
   '@types/react@19.3.0':
     dependencies:
@@ -2773,6 +2782,10 @@ snapshots:
       onetime: 5.1.2
       signal-exit: 3.0.7
 
+  rollup-plugin-filesize-check@2.0.1(rollup@4.63.5):
+    dependencies:
+      rollup: 4.63.5
+
   rollup@4.63.5:
     dependencies:
       '@types/estree': 1.0.9
@@ -2939,7 +2952,7 @@ snapshots:
 
   tagged-tag@1.0.0: {}
 
-  tap-dancer@0.4.2:
+  tap-dancer@0.4.3:
     dependencies:
       tap-parser: 18.3.4
 
@@ -3059,7 +3072,7 @@ snapshots:
       has-symbols: 1.1.0
       which-boxed-primitive: 1.1.1
 
-  undici-types@6.21.0: {}
+  undici-types@8.9.0: {}
 
   uri-js@4.4.1:
     dependencies:

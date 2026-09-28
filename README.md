@@ -23,7 +23,7 @@
 ### Demo
 ```js
 import Table from 'ink-table-flip'
-// column definition
+
 const cols = [
   { label: 'Name', id: 'name', sortable: true, color: 'blue' },
   { label: 'Start Date', id: 'start', format: 'month-year', sortable: true },
@@ -32,8 +32,8 @@ const cols = [
   { label: 'Gender', id: 'gender', sortable: false, maxWidth: 12 },
   { label: 'Birthplace', id: 'birthplace', sortable: false }
 ]
-// whatever data
-const rows=[
+
+const rows = [
   {"name":"Olivia Chow", "start":"2023-07-12", "terms":1,"gender":"f", "age":66, "birthplace":"Hong Kong"},
   {"name":"John Tory", "start":"2014-12-01", "terms":3, "gender":"m", "age":60, "birthplace":"Toronto"},
   {"name":"Rob Ford", "start":"2010-12-01", "terms":1, "gender":"m", "age":41, "birthplace":"Toronto"},
@@ -41,26 +41,29 @@ const rows=[
   {"name":"Mel Lastman", "start":"1998-01-01", "terms":2, "gender":"m", "age":65, "birthplace":"Toronto"},
   {"name":"Barbara Hall", "start":"1994-12-01", "terms":1, "gender":"f", "age":45, "birthplace":null},
 ]
+// inside your ink script
 return (
   <Table cols={cols} rows={rows} />
 )
 ```
+
 ### Usage
-The `Table` component accepts two properties: `cols` and `rows`.
-`rows` is the raw data, and `cols` is the column configuration.
+The `Table` component accepts two properties: 
+* `cols` is the column configuration.
+* `rows` is the raw data
+
+Within the cols objects, you can decide how the data shows up, and what it looks like.
 
 ```js
 import Table from 'ink-table-flip'
 import rows from './simpsons-episodes.js'
 const cols = [
   {
-    label: 'Episode',
-    id: 'episode',
-    sortable: true,
-    sorted: true,
-    type: 'number',
-    color: 'magenta',
-    maxWidth: 11
+    label: 'Episode',// column header title
+    id: 'episode',   // the attribute in your data
+    sortable: true,  // can it be clicked on
+    color: 'magenta',// the color of the text
+    maxWidth: 11     // wont grow beyond this # of characters
   },
   {
     label: 'Title',
