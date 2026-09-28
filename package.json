@@ -1,0 +1,43 @@
+{
+  "name": "ink-table-flip",
+  "version": "0.0.1",
+  "description": "",
+  "minimumReleaseAge": "1 day",
+  "scripts": {
+    "build": "rollup -c --silent",
+    "watch": "node --import tsx scratch.jsx",
+    "watch:stay": "node --watch --watch-preserve-output --import tsx scratch.jsx",
+    "test": "tape \"tests/*.test.js\" | tap-dancer",
+    "lint": "eslint ."
+  },
+  "type": "module",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spencermountain/ink-table-flip.git"
+  },
+  "files": [
+    "src",
+    "builds",
+    "types"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "prettier": {
+    "trailingComma": "none",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 100
+  },
+  "devDependencies": {
+    "eslint": "10.11.0",
+    "ink": "^7.1.1",
+    "react": "^19.2.0",
+    "tap-dancer": "0.4.2",
+    "tape": "^5.10.2",
+    "tsx": "^4.23.15"
+  },
+  "license": "MIT"
+}

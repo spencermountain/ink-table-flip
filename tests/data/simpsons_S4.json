@@ -1,0 +1,200 @@
+[
+  {
+    "episode": 1,
+    "title": "Kamp Krusty",
+    "directedBy": "Mark Kirkland",
+    "writtenBy": "David M. Stern",
+    "airDate": "1992-09-24",
+    "prodCode": "8F24",
+    "viewers": 21.8
+  },
+  {
+    "episode": 2,
+    "title": "A Streetcar Named Marge",
+    "directedBy": "Rich Moore",
+    "writtenBy": "Jeff Martin",
+    "airDate": "1992-10-01",
+    "prodCode": "8F18",
+    "viewers": 18.3
+  },
+  {
+    "episode": 3,
+    "title": "Homer the Heretic",
+    "directedBy": "Jim Reardon",
+    "writtenBy": "George Meyer",
+    "airDate": "1992-10-08",
+    "prodCode": "9F01",
+    "viewers": 19.3
+  },
+  {
+    "episode": 4,
+    "title": "Lisa the Beauty Queen",
+    "directedBy": "Mark Kirkland",
+    "writtenBy": "Jeff Martin",
+    "airDate": "1992-10-15",
+    "prodCode": "9F02",
+    "viewers": 19.0
+  },
+  {
+    "episode": 5,
+    "title": "Treehouse of Horror III",
+    "directedBy": "Carlos Baeza",
+    "writtenBy": "Al Jean, Mike Reiss, Jay Kogen, Wallace Wolodarsky, Sam Simon, Jon Vitti",
+    "airDate": "1992-10-29",
+    "prodCode": "9F04",
+    "viewers": 25.1
+  },
+  {
+    "episode": 6,
+    "title": "Itchy & Scratchy: The Movie",
+    "directedBy": "Rich Moore",
+    "writtenBy": "John Swartzwelder",
+    "airDate": "1992-11-03",
+    "prodCode": "9F03",
+    "viewers": 20.1
+  },
+  {
+    "episode": 7,
+    "title": "Marge Gets a Job",
+    "directedBy": "Jeffrey Lynch",
+    "writtenBy": "Bill Oakley, Josh Weinstein",
+    "airDate": "1992-11-05",
+    "prodCode": "9F05",
+    "viewers": 22.9
+  },
+  {
+    "episode": 8,
+    "title": "New Kid on the Block",
+    "directedBy": "Wes Archer",
+    "writtenBy": "Conan O'Brien",
+    "airDate": "1992-11-12",
+    "prodCode": "9F06",
+    "viewers": 23.1
+  },
+  {
+    "episode": 9,
+    "title": "Mr. Plow",
+    "directedBy": "Jim Reardon",
+    "writtenBy": "Jon Vitti",
+    "airDate": "1992-11-19",
+    "prodCode": "9F07",
+    "viewers": 24.0
+  },
+  {
+    "episode": 10,
+    "title": "Lisa's First Word",
+    "directedBy": "Mark Kirkland",
+    "writtenBy": "Jeff Martin",
+    "airDate": "1992-12-03",
+    "prodCode": "9F08",
+    "viewers": 28.6
+  },
+  {
+    "episode": 11,
+    "title": "Homer's Triple Bypass",
+    "directedBy": "David Silverman",
+    "writtenBy": "Gary Apple, Michael Carrington",
+    "airDate": "1992-12-17",
+    "prodCode": "9F09",
+    "viewers": 23.6
+  },
+  {
+    "episode": 12,
+    "title": "Marge vs. the Monorail",
+    "directedBy": "Rich Moore",
+    "writtenBy": "Conan O'Brien",
+    "airDate": "1993-01-14",
+    "prodCode": "9F10",
+    "viewers": 23.0
+  },
+  {
+    "episode": 13,
+    "title": "Selma's Choice",
+    "directedBy": "Carlos Baeza",
+    "writtenBy": "David M. Stern",
+    "airDate": "1993-01-21",
+    "prodCode": "9F11",
+    "viewers": 24.5
+  },
+  {
+    "episode": 14,
+    "title": "Brother from the Same Planet",
+    "directedBy": "Jeffrey Lynch",
+    "writtenBy": "Jon Vitti",
+    "airDate": "1993-02-04",
+    "prodCode": "9F12",
+    "viewers": 23.8
+  },
+  {
+    "episode": 15,
+    "title": "I Love Lisa",
+    "directedBy": "Wes Archer",
+    "writtenBy": "Frank Mula",
+    "airDate": "1993-02-11",
+    "prodCode": "9F13",
+    "viewers": 25.2
+  },
+  {
+    "episode": 16,
+    "title": "Duffless",
+    "directedBy": "Jim Reardon",
+    "writtenBy": "David M. Stern",
+    "airDate": "1993-02-18",
+    "prodCode": "9F14",
+    "viewers": 25.7
+  },
+  {
+    "episode": 17,
+    "title": "Last Exit to Springfield",
+    "directedBy": "Mark Kirkland",
+    "writtenBy": "Jay Kogen, Wallace Wolodarsky",
+    "airDate": "1993-03-11",
+    "prodCode": "9F15",
+    "viewers": 22.4
+  },
+  {
+    "episode": 18,
+    "title": "So It's Come to This: A Simpsons Clip Show",
+    "directedBy": "Carlos Baeza",
+    "writtenBy": "Jon Vitti",
+    "airDate": "1993-04-01",
+    "prodCode": "9F17",
+    "viewers": 25.5
+  },
+  {
+    "episode": 19,
+    "title": "The Front",
+    "directedBy": "Rich Moore",
+    "writtenBy": "Adam I. Lapidus",
+    "airDate": "1993-04-15",
+    "prodCode": "9F16",
+    "viewers": 20.1
+  },
+  {
+    "episode": 20,
+    "title": "Whacking Day",
+    "directedBy": "Jeffrey Lynch",
+    "writtenBy": "John Swartzwelder",
+    "airDate": "1993-04-29",
+    "prodCode": "9F18",
+    "viewers": 20.0
+  },
+  {
+    "episode": 21,
+    "title": "Marge in Chains",
+    "directedBy": "Jim Reardon",
+    "writtenBy": "Bill Oakley, Josh Weinstein",
+    "airDate": "1993-05-06",
+    "prodCode": "9F20",
+    "viewers": 17.3
+  },
+  {
+    "episode": 22,
+    "title": "Krusty Gets Kancelled",
+    "directedBy": "David Silverman",
+    "writtenBy": "John Swartzwelder",
+    "airDate": "1993-05-13",
+    "prodCode": "9F19",
+    "viewers": 19.4
+  }
+]
