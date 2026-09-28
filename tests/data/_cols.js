@@ -24,7 +24,8 @@ export const simpsons = [
   {
     label: 'Directed By',
     id: 'directedBy',
-    sortable: true
+    sortable: true,
+    maxWidth: 30
   },
   {
     label: 'Written By',

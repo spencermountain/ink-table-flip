@@ -1,24 +1,59 @@
-# Table
+<div align="center">
+  <img src="https://cloud.githubusercontent.com/assets/399657/23590290/ede73772-01aa-11e7-8915-181ef21027bc.png" />
+  <div>compression of key-value data</div>
+  <a href="https://npmjs.org/package/ink-table-flip">
+    <img src="https://img.shields.io/npm/v/ink-table-flip.svg?style=flat-square" />
+  </a>
+  <a href="https://unpkg.com/ink-table-flip/builds/ink-table-flip.min.js">
+     <img src="https://badge-size.herokuapp.com/spencermountain/ink-table-flip/master/builds/ink-table-flip.min.js" />
+  </a>
+  <a href="https://nodejs.org/api/documentation.html#documentation_stability_index">
+    <img src="https://img.shields.io/badge/stability-stable-green.svg?style=flat-square" />
+  </a>
+</div>
 
-Import the default component from `./Index.jsx`. The public API remains
-`<Table data={rows} cols={columns} />`.
+<div align="center">
+  <code>npm install ink-table-flip</code>
+</div>
 
-- `Index.jsx`: composes rows and connects sorting, focus, and mouse input.
-- `Row.jsx`: shared column sizing, body styling, and the header divider.
-- `Heading.jsx`: header labels, sort indicators, and keyboard input.
-- `useSort.js`: initial sort validation, direction changes, and row ordering.
-- `useHeaderClicks.js`: terminal mouse mode, coordinate conversion, and cleanup.
-- `columns.js`: sortable-column detection and single-line text normalization.
 
-Column options: `id`, `label`, `color`, `dim`, `bold`, `underline`, `flexBasis`,
-`minWidth`, `sortable`, and `sort`. One column may use `sort: true` to start in
-ascending order. Click a sortable header or focus it with Tab and press Enter
-or Space to reverse direction. Missing values stay last; input data is never
-mutated. Headers and values truncate instead of wrapping.
+<!-- spacer -->
+<img height="50px" src="https://user-images.githubusercontent.com/399657/68221862-17ceb980-ffb8-11e9-87d4-7b30b6488f16.png"/>
 
-Run these commands from the workspace root:
 
-```sh
-node --import tsx playground/components/Table/scratch.jsx
-node --import tsx --test playground/tests/table.test.jsx
+```js
+import Table from 'table-flip'
+import rows from './simpsons-episodes.js'
+const cols = [
+  {
+    label: 'Episode',
+    id: 'episode',
+    sortable: true,
+    sorted: true,
+    type: 'number',
+    color: 'magenta',
+    maxWidth: 11
+  },
+  {
+    label: 'Title',
+    id: 'title',
+    sortable: true
+  },
+  {
+    label: 'Directed By',
+    id: 'directedBy',
+    sortable: true,
+    maxWidth: 30
+  },
+  // ...
+]
+
+  return (
+    <Table cols={cols} rows={rows} />
+  )
 ```
+
+<img width="2556" height="924" alt="Image" src="https://github.com/user-attachments/assets/84e30d2d-609a-4dc3-8cd5-5361e8fde6b8" />
+
+
+MIT
