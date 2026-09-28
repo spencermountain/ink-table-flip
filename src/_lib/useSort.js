@@ -24,7 +24,7 @@ function sortedRows(data, sort) {
 }
 
 export default function useSort(data, cols) {
-  const initial = cols.filter((col) => col.sort === true)
+  const initial = cols.filter((col) => col.sorted === true)
   if (initial.length > 1) throw new Error('Table allows only one column with sort: true')
 
   // sort: true is a mount-time default, not a controlled sort state.

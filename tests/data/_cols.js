@@ -11,6 +11,7 @@ export const simpsons = [
     label: 'Episode',
     id: 'episode',
     sortable: true,
+    sorted: true,
     type: 'number'
   },
   {

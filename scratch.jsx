@@ -2,18 +2,23 @@
 import React from 'react'
 import { useApp, useInput, render } from 'ink'
 import Table from './src/Index.jsx'
+import { simpsons } from './tests/data/_cols.js'
 
-const cols=[
-  { label: 'Name', id: 'name', color: 'cyan', sortable: true, flexBasis: '40%', minWidth: 18 },
-  { label: 'Age', id: 'age', dim: true, sortable: true, sort: true, flexBasis: '20%', minWidth: 8 },
-  { label: 'City', id: 'city', underline: true, flexBasis: '40%', minWidth: 12 }
-]
+const cols = simpsons
+import rows from './tests/data/simpsons_S4.json' with { type: 'json' }
 
-const rows=[
-  { name: 'Sosa Saunders', age: 32, city: 'Toronto' },
-  { name: 'Angelina Kirk', age: 28, city: 'Montréal' },
-  { name: 'Bradford Rosales', age: 41, city: 'Vancouver' }
-]
+
+// const cols=[
+//   { label: 'Name', id: 'name', color: 'cyan', sortable: true, flexBasis: '40%', minWidth: 18 },
+//   { label: 'Age', id: 'age', dim: true, sortable: true, sort: true, flexBasis: '20%', minWidth: 8 },
+//   { label: 'City', id: 'city', underline: true, flexBasis: '40%', minWidth: 12 }
+// ]
+//
+// const rows=[
+//   { name: 'Sosa Saunders', age: 32, city: 'Toronto' },
+//   { name: 'Angelina Kirk', age: 28, city: 'Montréal' },
+//   { name: 'Bradford Rosales', age: 41, city: 'Vancouver' }
+// ]
 
 function Scratch() {
   const { exit } = useApp()

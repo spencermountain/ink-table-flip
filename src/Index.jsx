@@ -1,6 +1,7 @@
 import React, { useId, useRef } from 'react'
 import { Box, useFocusManager } from 'ink'
 import Row from './Row.jsx'
+import Header from './Header/Index.jsx'
 import useSort from './_lib/useSort.js'
 import useHeaderClicks from './_lib/useHeaderClicks.js'
 import { isSortable } from './_lib/columns.js'
@@ -28,10 +29,8 @@ export default function Table({ rows = [], cols = [] }) {
   // Clip only at the table boundary: nested Ink clipping can override its bounds.
   return (
     <Box flexDirection="column" width="100%" overflow="hidden" padding={1}>
-      <Row
-        header
+      <Header
         cols={cols}
-        values={cols.map((col) => col.label)}
         sort={sort}
         onSort={onSort}
         headers={headers}
