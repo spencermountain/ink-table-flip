@@ -1,0 +1,596 @@
+[
+  {
+    "name": "Olivia Chow",
+    "start": "2023-07-12",
+    "terms": 1,
+    "end": null,
+    "gender": "f",
+    "age": 66,
+    "birthplace": "Hong Kong"
+  },
+  {
+    "name": "John Tory",
+    "start": "2014-12-01",
+    "terms": 3,
+    "end": "2023-02-17",
+    "gender": "m",
+    "age": 60,
+    "birthplace": "Toronto"
+  },
+  {
+    "name": "Rob Ford",
+    "start": "2010-12-01",
+    "terms": 1,
+    "end": "2014-11-30",
+    "gender": "m",
+    "age": 41,
+    "birthplace": "Toronto"
+  },
+  {
+    "name": "David Miller",
+    "start": "2003-12-01",
+    "terms": 2,
+    "end": "2010-11-30",
+    "gender": "m",
+    "age": 45,
+    "birthplace": "Toronto"
+  },
+  {
+    "name": "Mel Lastman",
+    "start": "1998-01-01",
+    "terms": 2,
+    "end": "2003-11-30",
+    "gender": "m",
+    "age": 65,
+    "birthplace": "Toronto"
+  },
+  {
+    "name": "Barbara Hall",
+    "start": "1994-12-01",
+    "terms": 1,
+    "end": "1997-12-31",
+    "gender": "f",
+    "age": 45,
+    "birthplace": null
+  },
+  {
+    "name": "June Rowlands",
+    "start": "1991-12-01",
+    "terms": 1,
+    "end": "1994-11-30",
+    "gender": "f",
+    "age": 67,
+    "birthplace": null
+  },
+  {
+    "name": "Art Eggleton",
+    "start": "1980-12-01",
+    "terms": 4,
+    "end": "1991-11-30",
+    "gender": "m",
+    "age": 37,
+    "birthplace": "Stratford"
+  },
+  {
+    "name": "John Sewell",
+    "start": "1978-12-01",
+    "terms": 1,
+    "end": "1980-11-30",
+    "gender": "m",
+    "age": 38,
+    "birthplace": "Toronto"
+  },
+  {
+    "name": "Fred Beavis",
+    "start": "1978-09-01",
+    "terms": 1,
+    "end": "1978-11-30",
+    "gender": "m",
+    "age": null,
+    "birthplace": null
+  },
+  {
+    "name": "David Crombie",
+    "start": "1973-01-01",
+    "terms": 3,
+    "end": "1978-08-31",
+    "gender": "m",
+    "age": 37,
+    "birthplace": "Toronto"
+  },
+  {
+    "name": "William Dennison",
+    "start": "1967-01-01",
+    "terms": 2,
+    "end": "1972-12-31",
+    "gender": "m",
+    "age": 62,
+    "birthplace": "Toronto"
+  },
+  {
+    "name": "Philip Givens",
+    "start": "1963-11-19",
+    "terms": 2,
+    "end": "1966-12-31",
+    "gender": "m",
+    "age": 41,
+    "birthplace": "Toronto"
+  },
+  {
+    "name": "Donald Dean Summerville",
+    "start": "1963-01-01",
+    "terms": 1,
+    "end": "1963-11-19",
+    "gender": "m",
+    "age": null,
+    "birthplace": null
+  },
+  {
+    "name": "Nathan Phillips",
+    "start": "1955-01-01",
+    "terms": 5,
+    "end": "1962-12-31",
+    "gender": "m",
+    "age": 63,
+    "birthplace": "Brockville"
+  },
+  {
+    "name": "Leslie Howard Saunders",
+    "start": "1954-06-28",
+    "terms": 1,
+    "end": "1954-12-31",
+    "gender": "m",
+    "age": null,
+    "birthplace": null
+  },
+  {
+    "name": "Allan Lamport",
+    "start": "1952-01-01",
+    "terms": 3,
+    "end": "1954-06-28",
+    "gender": "m",
+    "age": 49,
+    "birthplace": "Toronto"
+  },
+  {
+    "name": "Hiram E. McCallum",
+    "start": "1948-02",
+    "terms": 4,
+    "end": "1952-01-01",
+    "gender": "m",
+    "age": null,
+    "birthplace": null
+  },
+  {
+    "name": "Robert Hood Saunders",
+    "start": "1945-01",
+    "terms": 4,
+    "end": "1948-02-23",
+    "gender": "m",
+    "age": 42,
+    "birthplace": null
+  },
+  {
+    "name": "Frederick J. Conboy",
+    "start": "1941-01",
+    "terms": 4,
+    "end": "1945-01",
+    "gender": "m",
+    "age": null,
+    "birthplace": null
+  },
+  {
+    "name": "Ralph C. Day",
+    "start": "1938-01",
+    "terms": 3,
+    "end": "1941-01",
+    "gender": "m",
+    "age": null,
+    "birthplace": null
+  },
+  {
+    "name": "William D. Robbins",
+    "start": "1936-11-18",
+    "terms": 2,
+    "end": "1938-01",
+    "gender": "m",
+    "age": null,
+    "birthplace": null
+  },
+  {
+    "name": "James Simpson",
+    "start": "1935-01",
+    "terms": 1,
+    "end": "1936-01",
+    "gender": "m",
+    "age": 62,
+    "birthplace": null
+  },
+  {
+    "name": "William James Stewart",
+    "start": "1931-01",
+    "terms": 4,
+    "end": "1935-01",
+    "gender": "m",
+    "age": null,
+    "birthplace": null
+  },
+  {
+    "name": "Bert Wemp",
+    "start": "1930-01",
+    "terms": 1,
+    "end": "1931-01",
+    "gender": "m",
+    "age": 41,
+    "birthplace": null
+  },
+  {
+    "name": "Sam McBride",
+    "start": "1928-01",
+    "terms": 3,
+    "end": "1936-11-10",
+    "gender": "m",
+    "age": 56,
+    "birthplace": "Toronto"
+  },
+  {
+    "name": "Thomas Foster",
+    "start": "1925-01",
+    "terms": 3,
+    "end": "1928-01",
+    "gender": "m",
+    "age": null,
+    "birthplace": null
+  },
+  {
+    "name": "W. W. Hiltz",
+    "start": "1924-01",
+    "terms": 1,
+    "end": "1925-01",
+    "gender": "m",
+    "age": null,
+    "birthplace": null
+  },
+  {
+    "name": "Charles A. Maguire",
+    "start": "1922-01",
+    "terms": 2,
+    "end": "1924-01",
+    "gender": "m",
+    "age": null,
+    "birthplace": null
+  },
+  {
+    "name": "Thomas Langton Church",
+    "start": "1915-01",
+    "terms": 7,
+    "end": "1922-01",
+    "gender": "m",
+    "age": 45,
+    "birthplace": "Toronto"
+  },
+  {
+    "name": "Horatio C. Hocken",
+    "start": "1912-10",
+    "terms": 3,
+    "end": "1915-01",
+    "gender": "m",
+    "age": 55,
+    "birthplace": null
+  },
+  {
+    "name": "George Reginald Geary",
+    "start": "1910-01",
+    "terms": 3,
+    "end": "1912-10-21",
+    "gender": "m",
+    "age": 45,
+    "birthplace": null
+  },
+  {
+    "name": "Joseph Oliver",
+    "start": "1908-01",
+    "terms": 2,
+    "end": "1910-01",
+    "gender": "m",
+    "age": 59,
+    "birthplace": null
+  },
+  {
+    "name": "Emerson Coatsworth",
+    "start": "1906-01",
+    "terms": 2,
+    "end": "1908-01",
+    "gender": "m",
+    "age": 52,
+    "birthplace": null
+  },
+  {
+    "name": "Thomas Urquhart",
+    "start": "1903-01",
+    "terms": 3,
+    "end": "1906-01",
+    "gender": "m",
+    "age": null,
+    "birthplace": null
+  },
+  {
+    "name": "Oliver Aiken Howland",
+    "start": "1901-01",
+    "terms": 2,
+    "end": "1903-01",
+    "gender": "m",
+    "age": 54,
+    "birthplace": null
+  },
+  {
+    "name": "Ernest A. Macdonald",
+    "start": "1900-01",
+    "terms": 1,
+    "end": "1901-01",
+    "gender": "m",
+    "age": null,
+    "birthplace": null
+  },
+  {
+    "name": "John Shaw",
+    "start": "1897-08-06",
+    "terms": 3,
+    "end": "1900-01",
+    "gender": "m",
+    "age": null,
+    "birthplace": null
+  },
+  {
+    "name": "Warring Kennedy",
+    "start": "1894-01",
+    "terms": 2,
+    "end": "1896-01",
+    "gender": "m",
+    "age": 67,
+    "birthplace": null
+  },
+  {
+    "name": "Robert John Fleming",
+    "start": "1892-01",
+    "terms": 4,
+    "end": "1897-08-05",
+    "gender": "m",
+    "age": 38,
+    "birthplace": null
+  },
+  {
+    "name": "Edward Frederick Clarke",
+    "start": "1888-01",
+    "terms": 4,
+    "end": "1892-01",
+    "gender": "m",
+    "age": 38,
+    "birthplace": null
+  },
+  {
+    "name": "William Holmes Howland",
+    "start": "1886-01",
+    "terms": 2,
+    "end": "1888-01",
+    "gender": "m",
+    "age": 42,
+    "birthplace": "Paris Hill"
+  },
+  {
+    "name": "Arthur Radcliffe Boswell",
+    "start": "1883-01",
+    "terms": 2,
+    "end": "1885-01",
+    "gender": "m",
+    "age": 35,
+    "birthplace": null
+  },
+  {
+    "name": "William Barclay McMurrich",
+    "start": "1881-01",
+    "terms": 2,
+    "end": "1883-01",
+    "gender": "m",
+    "age": 39,
+    "birthplace": "Toronto"
+  },
+  {
+    "name": "James Beaty Jr.",
+    "start": "1879-01",
+    "terms": 2,
+    "end": "1881-01",
+    "gender": "m",
+    "age": 49,
+    "birthplace": null
+  },
+  {
+    "name": "Angus Morrison",
+    "start": "1876-01",
+    "terms": 3,
+    "end": "1879-01",
+    "gender": "m",
+    "age": 54,
+    "birthplace": null
+  },
+  {
+    "name": "Alexander Manning",
+    "start": "1873-01",
+    "terms": 2,
+    "end": "1886-01",
+    "gender": "m",
+    "age": 54,
+    "birthplace": null
+  },
+  {
+    "name": "Joseph Sheard",
+    "start": "1871-01",
+    "terms": 2,
+    "end": "1873-01",
+    "gender": "m",
+    "age": 58,
+    "birthplace": null
+  },
+  {
+    "name": "Samuel Bickerton Harman",
+    "start": "1869-01",
+    "terms": 2,
+    "end": "1871-01",
+    "gender": "m",
+    "age": null,
+    "birthplace": null
+  },
+  {
+    "name": "James Edward Smith",
+    "start": "1867-01",
+    "terms": 2,
+    "end": "1869-01",
+    "gender": "m",
+    "age": null,
+    "birthplace": null
+  },
+  {
+    "name": "Francis Henry Medcalf",
+    "start": "1864-01",
+    "terms": 5,
+    "end": "1876-01",
+    "gender": "m",
+    "age": 45,
+    "birthplace": null
+  },
+  {
+    "name": "Adam Wilson",
+    "start": "1859-01",
+    "terms": 2,
+    "end": "1861-01",
+    "gender": "m",
+    "age": 45,
+    "birthplace": "Edinburgh"
+  },
+  {
+    "name": "David Breakenridge Read",
+    "start": "1858-11-11",
+    "terms": 1,
+    "end": "1859-01",
+    "gender": "m",
+    "age": 35,
+    "birthplace": null
+  },
+  {
+    "name": "John Hutchison",
+    "start": "1857-01",
+    "terms": 1,
+    "end": "1858-01",
+    "gender": "m",
+    "age": null,
+    "birthplace": null
+  },
+  {
+    "name": "John Beverley Robinson",
+    "start": "1856-01",
+    "terms": 1,
+    "end": "1857-01",
+    "gender": "m",
+    "age": 35,
+    "birthplace": "Toronto"
+  },
+  {
+    "name": "George William Allan",
+    "start": "1855-01",
+    "terms": 1,
+    "end": "1856-01",
+    "gender": "m",
+    "age": 33,
+    "birthplace": "Toronto"
+  },
+  {
+    "name": "Joshua George Beard",
+    "start": "1854-01",
+    "terms": 1,
+    "end": "1855-01",
+    "gender": "m",
+    "age": 57,
+    "birthplace": null
+  },
+  {
+    "name": "John George Bowes",
+    "start": "1851-01",
+    "terms": 6,
+    "end": "1864-01",
+    "gender": "m",
+    "age": 39,
+    "birthplace": null
+  },
+  {
+    "name": "William Henry Boulton",
+    "start": "1845-01",
+    "terms": 4,
+    "end": "1858-11-08",
+    "gender": "m",
+    "age": 33,
+    "birthplace": "Toronto"
+  },
+  {
+    "name": "Henry Sherwood",
+    "start": "1842-01",
+    "terms": 3,
+    "end": "1845-01",
+    "gender": "m",
+    "age": 35,
+    "birthplace": null
+  },
+  {
+    "name": "George Monro",
+    "start": "1841-01",
+    "terms": 1,
+    "end": "1842-01",
+    "gender": "m",
+    "age": 40,
+    "birthplace": null
+  },
+  {
+    "name": "John Powell",
+    "start": "1838-01",
+    "terms": 3,
+    "end": "1841-01",
+    "gender": "m",
+    "age": 52,
+    "birthplace": null
+  },
+  {
+    "name": "George Gurnett",
+    "start": "1837-01",
+    "terms": 4,
+    "end": "1851-01",
+    "gender": "m",
+    "age": 45,
+    "birthplace": null
+  },
+  {
+    "name": "Thomas David Morrison",
+    "start": "1836-01",
+    "terms": 1,
+    "end": "1837-01",
+    "gender": "m",
+    "age": 40,
+    "birthplace": "Quebec City"
+  },
+  {
+    "name": "Robert Baldwin Sullivan",
+    "start": "1835-01-15",
+    "terms": 1,
+    "end": "1836-01",
+    "gender": "m",
+    "age": 33,
+    "birthplace": "Bandon"
+  },
+  {
+    "name": "William Lyon Mackenzie",
+    "start": "1834-03-27",
+    "terms": 1,
+    "end": "1835-01-15",
+    "gender": "m",
+    "age": 39,
+    "birthplace": "Dundee"
+  }
+]

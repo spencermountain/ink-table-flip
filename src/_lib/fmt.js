@@ -39,12 +39,19 @@ const fmts = {
     }
     return wrap(`${n.toLocaleString()}%`, col)
   },
-  'iso-date': function (val, col) {
+  iso: function (val, col) {
     let s = spacetime(val)
     if (!s.isValid()) {
       return val
     }
     return wrap(s.format('iso'), col)
+  },
+  'month-year': function (val, col) {
+    let s = spacetime(val)
+    if (!s.isValid()) {
+      return val
+    }
+    return wrap(s.format('{month-short} {year}'), col)
   },
   'nice-date': function (val, col) {
     let s = spacetime(val)
@@ -54,4 +61,5 @@ const fmts = {
     return wrap(s.format('{month-short} {date-pad} {year}'), col)
   }
 }
+
 export default fmts

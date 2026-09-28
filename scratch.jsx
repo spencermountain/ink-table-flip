@@ -4,21 +4,30 @@ import { useApp, useInput, render } from 'ink'
 import Table from './src/Index.jsx'
 import { simpsons } from './tests/data/_cols.js'
 
-const cols = simpsons
-import rows from './tests/data/simpsons_S4.json' with { type: 'json' }
+// const cols = simpsons
+// import rows from './tests/data/simpsons_S4.json' with { type: 'json' }
 
 
-// const cols=[
-//   { label: 'Name', id: 'name', color: 'cyan', sortable: true, flexBasis: '40%', minWidth: 18 },
-//   { label: 'Age', id: 'age', dim: true, sortable: true, sort: true, flexBasis: '20%', minWidth: 8 },
-//   { label: 'City', id: 'city', underline: true, flexBasis: '40%', minWidth: 12 }
-// ]
-//
-// const rows=[
-//   { name: 'Sosa Saunders', age: 32, city: 'Toronto' },
-//   { name: 'Angelina Kirk', age: 28, city: 'Montréal' },
-//   { name: 'Bradford Rosales', age: 41, city: 'Vancouver' }
-// ]
+const cols=[
+  { label: 'Name', id: 'name', sortable: true, color:'blue'  },
+  { label: 'Start Date', id: 'start', format:'month-year', sortable: true  },
+  { label: '# Terms', id: 'terms', type:'number', sortable: false  },
+  { label: 'Age', id: 'age', sortable: false  },
+  { label: 'Gender', id: 'gender', sortable: false  },
+  { label: 'Birthplace', id: 'birthplace', sortable: false  },
+]
+
+const rows=[
+  {"name":"Olivia Chow","start":"2023-07-12","terms":1,"end":null,"gender":"Female","age":66,"birthplace":"Hong Kong"},
+  {"name":"John Tory","start":"2014-12-01","terms":3,"end":"2023-02-17","gender":"Male","age":60,"birthplace":"Toronto"},
+  {"name":"Rob Ford","start":"2010-12-01","terms":1,"end":"2014-11-30","gender":"Male","age":41,"birthplace":"Toronto"},
+  {"name":"David Miller","start":"2003-12-01","terms":2,"end":"2010-11-30","gender":"Male","age":45,"birthplace":"Toronto"},
+  {"name":"Mel Lastman","start":"1998-01-01","terms":2,"end":"2003-11-30","gender":"Male","age":65,"birthplace":"Toronto"},
+  {"name":"Barbara Hall","start":"1994-12-01","terms":1,"end":"1997-12-31","gender":"Female","age":45,"birthplace":"Ottawa"},
+  {"name":"June Rowlands","start":"1991-12-01","terms":1,"end":"1994-11-30","gender":"Female","age":67,"birthplace":"Montreal"},
+  {"name":"Art Eggleton","start":"1980-12-01","terms":4,"end":"1991-11-30","gender":"Male","age":37,"birthplace":"Stratford"},
+
+]
 
 function Scratch() {
   const { exit } = useApp()

@@ -1,28 +1,31 @@
 {
   "name": "ink-table-flip",
   "version": "0.0.1",
-  "description": "",
+  "description": "Sortable terminal tables for React and Ink",
   "minimumReleaseAge": "1 day",
   "scripts": {
-    "build": "rollup -c --silent",
+    "build": "rollup -c",
     "watch": "node --import tsx scratch.jsx",
     "watch:stay": "node --watch --watch-preserve-output --import tsx scratch.jsx",
-    "test": "tape \"tests/*.test.js\" | tap-dancer",
-    "lint": "eslint ."
+    "test": "npm run build && tape \"tests/*.test.js\" | tap-dancer",
+    "lint": "eslint .",
+    "prepack": "npm run build",
+    "record": "node scripts/demos/index.js",
+    "test:package": "npm test && npm run test:types",
+    "test:types": "tsc -p tests/types/tsconfig.json"
   },
   "type": "module",
-  "main": "src/index.js",
+  "main": "./builds/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/spencermountain/ink-table-flip.git"
   },
   "files": [
-    "src",
     "builds",
     "types"
   ],
   "engines": {
-    "node": ">=18"
+    "node": ">=22"
   },
   "prettier": {
     "trailingComma": "none",
@@ -31,17 +34,33 @@
     "singleQuote": true,
     "printWidth": 100
   },
+  "dependencies": {
+    "spacetime": "^7.15.0"
+  },
   "devDependencies": {
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@types/node": "^22.20.4",
+    "@types/react": "^19.3.0",
     "eslint": "10.11.0",
     "ink": "^7.1.1",
     "react": "^19.2.0",
     "rollup": "^4.63.5",
     "tap-dancer": "0.4.2",
     "tape": "^5.10.2",
-    "tsx": "^4.23.15"
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
   },
   "license": "MIT",
-  "dependencies": {
-    "spacetime": "^7.15.0"
-  }
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./builds/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "ink": "^7.1.1",
+    "react": "^19.2.0"
+  },
+  "types": "./types/index.d.ts"
 }

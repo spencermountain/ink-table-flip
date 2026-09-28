@@ -13,6 +13,10 @@ Thumbs.db
 coverage.lcov
 coverage/
 node_modules/
+builds/
+*.tgz
 npm-debug.log
 npm-debug.log*
 pnpm-debug.log*
+*.mp4
+*.gif
