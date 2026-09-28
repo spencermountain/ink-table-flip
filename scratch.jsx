@@ -23,13 +23,12 @@ function Scratch() {
 
   return (
     <Table
-      cols={cols}
-      data={rows}
+      cols={cols} rows={rows}
     />
   )
 }
 
-const app = render(<Scratch />, opts)
+const app = render(<Scratch />, {})
 try {
   await app.waitUntilExit()
 } finally {

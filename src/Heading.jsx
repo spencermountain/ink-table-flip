@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Text, useFocus, useInput, useStdin } from 'ink'
-import { isSortable, singleLine } from './columns.js'
+import { isSortable, singleLine } from './_lib/columns.js'
 
 export default function Heading({ col, sort, onSort, register, focusId, first }) {
   const sortable = isSortable(col)

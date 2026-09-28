@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Text } from 'ink'
 import Heading from './Heading.jsx'
-import { isSortable, singleLine } from './columns.js'
+import { isSortable, singleLine } from './_lib/columns.js'
 
 // One sizing path for headings and body cells keeps every column aligned.
 export default function Row({ values, cols, sort, header = false, onSort, headers, focusPrefix }) {

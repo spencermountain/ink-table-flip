@@ -1,18 +1,18 @@
 import React, { useId, useRef } from 'react'
 import { Box, useFocusManager } from 'ink'
 import Row from './Row.jsx'
-import useSort from './useSort.js'
-import useHeaderClicks from './useHeaderClicks.js'
-import { isSortable } from './columns.js'
+import useSort from './_lib/useSort.js'
+import useHeaderClicks from './_lib/useHeaderClicks.js'
+import { isSortable } from './_lib/columns.js'
 
 /**
- * data: objects keyed by column id.
+ * rows: objects keyed by column id.
  * cols: { id, label, color?, dim?, bold?, underline?, flexBasis?, minWidth?,
  *         sortable?, sort? }. Only one column may have sort: true.
  * Click a sortable heading, or focus it with Tab and press Enter/Space.
  */
-export default function Table({ data = [], cols = [] }) {
-  const { sort, rows, toggleSort } = useSort(data, cols)
+export default function Table({ rows = [], cols = [] }) {
+  const { sort, tableRows, toggleSort } = useSort(rows, cols)
   const headers = useRef(new Map())
   const focusPrefix = useId()
   const { focus } = useFocusManager()
@@ -37,7 +37,7 @@ export default function Table({ data = [], cols = [] }) {
         headers={headers}
         focusPrefix={focusPrefix}
       />
-      {rows.map((row, index) => (
+      {tableRows.map((row, index) => (
         <Row key={index} cols={cols} sort={sort} values={cols.map((col) => row[col.id])} />
       ))}
     </Box>

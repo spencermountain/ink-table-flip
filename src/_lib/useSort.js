@@ -40,5 +40,5 @@ export default function useSort(data, cols) {
     }))
   }
 
-  return { sort, rows: sortedRows(data, sort), toggleSort }
+  return { sort, tableRows: sortedRows(data, sort), toggleSort }
 }
