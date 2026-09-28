@@ -5,14 +5,10 @@ import Header from './Header/Index.jsx'
 import useSort from './_lib/useSort.js'
 import useHeaderClicks from './_lib/useHeaderClicks.js'
 import { isSortable } from './_lib/columns.js'
+import { setupCols } from './init.js'
 
-/**
- * rows: objects keyed by column id.
- * cols: { id, label, color?, dim?, bold?, underline?, flexBasis?, minWidth?,
- *         sortable?, sort? }. Only one column may have sort: true.
- * Click a sortable heading, or focus it with Tab and press Enter/Space.
- */
 export default function Table({ rows = [], cols = [] }) {
+  cols = setupCols(cols)
   const { sort, tableRows, toggleSort } = useSort(rows, cols)
   const headers = useRef(new Map())
   const focusPrefix = useId()

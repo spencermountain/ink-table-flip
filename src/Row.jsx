@@ -2,6 +2,7 @@ import React from 'react'
 import { Box, Text } from 'ink'
 import Cell from './Cell.jsx'
 import { singleLine } from './_lib/columns.js'
+import fmts from './_lib/fmt.js'
 
 export default function Row({ values, cols, sort }) {
   return (
@@ -10,12 +11,12 @@ export default function Row({ values, cols, sort }) {
         <Cell key={col.id} col={col} last={index === cols.length - 1}>
           <Text
             wrap="truncate-end"
-            color={col.color}
+            color={col.color || 'white'}
             dimColor={col.dim}
             bold={sort?.id === col.id || col.bold}
             underline={col.underline}
           >
-            {singleLine(values[index])}
+            {fmts[col.format || 'text'](values[index], col)}
           </Text>
         </Cell>
       ))}

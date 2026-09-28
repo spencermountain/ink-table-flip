@@ -39,5 +39,8 @@
     "tape": "^5.10.2",
     "tsx": "^4.23.15"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "spacetime": "^7.15.0"
+  }
 }

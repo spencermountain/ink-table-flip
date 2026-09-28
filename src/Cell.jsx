@@ -9,6 +9,7 @@ export default function Cell({ col, last, children }) {
       flexGrow={1}
       flexShrink={1}
       minWidth={col.minWidth ?? 0}
+      maxWidth={col.maxWidth}
       height={1}
       paddingRight={last ? 0 : 2}
       justifyContent="flex-start"

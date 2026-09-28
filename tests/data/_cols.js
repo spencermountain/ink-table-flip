@@ -12,7 +12,9 @@ export const simpsons = [
     id: 'episode',
     sortable: true,
     sorted: true,
-    type: 'number'
+    type: 'number',
+    color: 'magenta',
+    maxWidth: 11
   },
   {
     label: 'Title',
@@ -30,21 +32,21 @@ export const simpsons = [
     sortable: true
   },
   {
-    label: 'Air Date',
-    id: 'airDate',
-    sortable: true,
-    type: 'date'
-  },
-  {
-    label: 'Prod Code',
-    id: 'prodCode',
-    sortable: true
-  },
-  {
     label: 'Viewers',
     id: 'viewers',
     sortable: true,
-    type: 'number'
+    type: 'number',
+    format: 'float',
+    maxWidth: 12
+  },
+  {
+    label: 'Air Date',
+    id: 'airDate',
+    sortable: true,
+    maxWidth: 18,
+    type: 'date',
+    color: 'cyan',
+    format: 'nice-date'
   }
 ]
 
