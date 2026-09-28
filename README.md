@@ -1,6 +1,6 @@
 <div align="center">
   <img src="https://cloud.githubusercontent.com/assets/399657/23590290/ede73772-01aa-11e7-8915-181ef21027bc.png" />
-  <div>sortable CLI table component for ink</div>
+  <div>sortable CLI table for ink</div>
   <a href="https://npmjs.org/package/ink-table-flip">
     <img src="https://img.shields.io/npm/v/ink-table-flip.svg?style=flat-square" />
   </a>
@@ -18,30 +18,28 @@
 <img height="50px" src="https://user-images.githubusercontent.com/399657/68221862-17ceb980-ffb8-11e9-87d4-7b30b6488f16.png"/>
 
 <img width="1800" height="600" alt="Image" src="https://github.com/user-attachments/assets/8930e18e-46ed-46b9-afda-7a62ffbd49e3" />
+columns can be sorted, and they are sorted properly by type
 
-
-### Demo
 ```js
 import Table from 'ink-table-flip'
 
 const cols = [
   { label: 'Name', id: 'name', sortable: true, color: 'blue' },
   { label: 'Start Date', id: 'start', format: 'month-year', sortable: true },
-  { label: '# Terms', id: 'terms', type: 'number', sortable: false, maxWidth: 10 },
-  { label: 'Age', id: 'age', sortable: false, maxWidth: 10 },
-  { label: 'Gender', id: 'gender', sortable: false, maxWidth: 12 },
-  { label: 'Birthplace', id: 'birthplace', sortable: false }
+  { label: '# Terms', id: 'terms', type: 'number', maxWidth: 10 },
+  { label: 'Age', id: 'age', maxWidth: 10 },
+  { label: 'Gender', id: 'gender', maxWidth: 12 },
+  { label: 'Birthplace', id: 'birthplace' }
 ]
 
 const rows = [
-  {"name":"Olivia Chow", "start":"2023-07-12", "terms":1,"gender":"f", "age":66, "birthplace":"Hong Kong"},
-  {"name":"John Tory", "start":"2014-12-01", "terms":3, "gender":"m", "age":60, "birthplace":"Toronto"},
-  {"name":"Rob Ford", "start":"2010-12-01", "terms":1, "gender":"m", "age":41, "birthplace":"Toronto"},
-  {"name":"David Miller", "start":"2003-12-01", "terms":2, "gender":"m", "age":45, "birthplace":"Toronto"},
-  {"name":"Mel Lastman", "start":"1998-01-01", "terms":2, "gender":"m", "age":65, "birthplace":"Toronto"},
-  {"name":"Barbara Hall", "start":"1994-12-01", "terms":1, "gender":"f", "age":45, "birthplace":null},
+  {"name": "Olivia Chow", "start": "2023-07-12", "terms": 1,"gender": "f", "age": 66, "birthplace": "Hong Kong"},
+  {"name": "John Tory", "start": "2014-12-01", "terms": 3, "gender": "m", "age": 60, "birthplace": "Toronto"},
+  {"name": "Rob Ford", "start": "2010-12-01", "terms": 1, "gender": "m", "age": 41, "birthplace": "Toronto"},
+  {"name": "David Miller", "start": "2003-12-01", "terms": 2, "gender": "m", "age": 45, "birthplace": "Toronto"},
+  {"name": "Mel Lastman", "start": "1998-01-01", "terms": 2, "gender": "m", "age": 65, "birthplace": "Toronto"},
+  {"name": "Barbara Hall", "start": "1994-12-01", "terms": 1, "gender": "f", "age": 45, "birthplace": null},
 ]
-// inside your ink script
 return (
   <Table cols={cols} rows={rows} />
 )
@@ -136,5 +134,8 @@ const rows: Episode[] = [{ title: 'Kamp Krusty', episode: 1 }]
 const table = <Table rows={rows} cols={cols} />
 ```
 
+### See also
+* [maticzav/ink-table](https://github.com/maticzav/ink-table)
+* [cli-table3](https://github.com/cli-table/cli-table3) - static CLI tables
 
 MIT
